@@ -48,7 +48,7 @@ namespace CustomerSupportCase.Controllers
              }
              catch(InvalidOperationException ex)
              {
-                  return BadReuest(new {message=ex.Message});
+                  return BadRequest(new {message=ex.Message});
              }
             
         }
