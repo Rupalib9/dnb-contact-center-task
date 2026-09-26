@@ -6,6 +6,11 @@ import { CasePriorityName, CaseStatusName } from "./CaseStatus";
 
 function ViewCase() {
     const [data, setData] = useState([]);
+    const [status, setStatus] = useState("");
+    const [priority, setPriority] = useState("");
+    const [custEmail, setCustEmail] = useState("");
+    const [referenceNo, setReferenceNo] = useState("");
+
 
     useEffect(() => {
         axios
@@ -32,6 +37,57 @@ function ViewCase() {
                     </div>
 
                     <div className="table-responsive">
+                        <div className="row g3 mb-3">
+                            <div className="col-md-2">
+                                <label>
+                                    Customer Email
+                                </label>
+                                <input type="text" name="customerEmail" className="form-control" placeholder="Search Email"
+                                    value={custEmail}
+                                    onChange={(e) => setCustEmail(e.target.value)} ></input>
+                            </div>
+                            <div className="col-md-3">
+                                <label>
+                                    Reference No
+                                </label>
+                                <input type="text" name="referenceNo" className="form-control" placeholder="Search refno"
+                                    value={referenceNo}
+                                    onChange={(e) => setReferenceNo(e.target.value)} ></input>
+                            </div>
+                            <div className="col-md-2">
+                                <label>
+                                    status
+                                </label>
+                                <select className="form-select" value={status}
+                                    onChange={(e) => setStatus(e.target.value)}>
+                                    <option value="">Select</option>
+                                    {Object.entries(CaseStatusName).map(([key, value]) =>
+                                        <option key={key} value={key}>{value}</option>
+
+                                    )}
+                                </select>
+                            </div>
+
+                            <div className="col-md-2">
+
+                                <label>
+                                    Priority
+                                </label>
+                                <select className="form-select" value={priority}
+                                    onChange={(e) => setPriority(e.target.value)}>
+                                    <option value="">Select</option>
+                                    {Object.entries(CasePriorityName).map(([key, value]) =>
+                                        <option key={key} value={key}>{value}</option>
+
+                                    )}
+                                </select>
+                            </div>
+                            <div className="col-md-2  mt-3 d-flex align-items-end">
+                                <button className="btn btn-secondary btn-sm"
+                                    onClick={() => { setReferenceNo(""); setCustEmail(""); setStatus(""); setPriority(""); }}
+                                >Clear</button>
+                            </div>
+                        </div>
                         <table className="table table-striped table-bordered align-middle mb-0">
                             <thead className="table-dark">
                                 <tr>
@@ -48,34 +104,41 @@ function ViewCase() {
                             </thead>
 
                             <tbody>
-                                {data.map((d) => (
-                                    <tr key={d.id}>
-                                        <td>{d.referenceNo}</td>
-                                        <td>{d.customerName}</td>
-                                        <td>{d.customerEmail}</td>
-                                        <td>{d.subject}</td>
-                                        <td>{d.description}</td>
-                                        <td>{CaseStatusName[d.status]}</td>
-                                        <td>{CasePriorityName[d.priority]}</td>
-                                        <td>{d.createdOn}</td>
+                                {
+                                    data.filter((d) => status === "" || String(d.status) === status)
+                                        .filter((d) => priority === "" || String(d.priority) === priority)
+                                        .filter((d) => String(d.customerEmail).toLowerCase().includes(custEmail.toLowerCase()))
+                                        .filter((d) => String(d.referenceNo).toLowerCase().includes(referenceNo.toLowerCase()))
 
-                                        <td className="text-center text-nowrap">
-                                            <Link
-                                                to={`/detail/${d.id}`}
-                                                className="btn btn-sm btn-primary me-2"
-                                            >
-                                                Details
-                                            </Link>
+                                        .map
+                                        ((d) => (
+                                            <tr key={d.id}>
+                                                <td>{d.referenceNo}</td>
+                                                <td>{d.customerName}</td>
+                                                <td>{d.customerEmail}</td>
+                                                <td>{d.subject}</td>
+                                                <td>{d.description}</td>
+                                                <td>{CaseStatusName[d.status]}</td>
+                                                <td>{CasePriorityName[d.priority]}</td>
+                                                <td>{d.createdOn}</td>
 
-                                            <Link
-                                                to={`/update/${d.id}`}
-                                                className="btn btn-sm btn-warning"
-                                            >
-                                                Update
-                                            </Link>
-                                        </td>
-                                    </tr>
-                                ))}
+                                                <td className="text-center text-nowrap">
+                                                    <Link
+                                                        to={`/detail/${d.id}`}
+                                                        className="btn btn-sm btn-primary me-2"
+                                                    >
+                                                        Details
+                                                    </Link>
+
+                                                    <Link
+                                                        to={`/update/${d.id}`}
+                                                        className="btn btn-sm btn-warning"
+                                                    >
+                                                        Update
+                                                    </Link>
+                                                </td>
+                                            </tr>
+                                        ))}
                             </tbody>
                         </table>
                     </div>
