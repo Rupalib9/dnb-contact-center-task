@@ -39,10 +39,17 @@ namespace CustomerSupportCase.Controllers
 
         public async Task<ActionResult>UpdateStatus(Guid ID, [FromBody] UpdateCaseStatusRequest request)
         {
-            
-            bool updated = await _caseService.UpdateStatusAsync(ID, request);
-            if (!updated) { return NotFound(); }
-            return NoContent();
+            try
+            {
+                
+                bool updated = await _caseService.UpdateStatusAsync(ID, request);
+                if (!updated) { return NotFound(); }
+                return NoContent();
+             }
+             catch(InvalidOperationException ex)
+             {
+                  return BadReuest(new {message=ex.Message});
+             }
             
         }
         [HttpGet("SearchCaseAsync")]
