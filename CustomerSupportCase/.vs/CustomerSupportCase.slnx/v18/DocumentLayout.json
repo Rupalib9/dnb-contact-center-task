@@ -1,0 +1,158 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DNBAccount\\CustomerSupportCase\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5732954C-82D0-1F2E-4D66-45E4DB1A0B39}|CustomerSupportCase\\CustomerSupportCase.csproj|d:\\dnbaccount\\customersupportcase\\customersupportcase\\services\\caseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5732954C-82D0-1F2E-4D66-45E4DB1A0B39}|CustomerSupportCase\\CustomerSupportCase.csproj|solutionrelative:customersupportcase\\services\\caseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5732954C-82D0-1F2E-4D66-45E4DB1A0B39}|CustomerSupportCase\\CustomerSupportCase.csproj|d:\\dnbaccount\\customersupportcase\\customersupportcase\\controllers\\supportcasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5732954C-82D0-1F2E-4D66-45E4DB1A0B39}|CustomerSupportCase\\CustomerSupportCase.csproj|solutionrelative:customersupportcase\\controllers\\supportcasecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5732954C-82D0-1F2E-4D66-45E4DB1A0B39}|CustomerSupportCase\\CustomerSupportCase.csproj|d:\\dnbaccount\\customersupportcase\\customersupportcase\\entities\\supportcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5732954C-82D0-1F2E-4D66-45E4DB1A0B39}|CustomerSupportCase\\CustomerSupportCase.csproj|solutionrelative:customersupportcase\\entities\\supportcase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5732954C-82D0-1F2E-4D66-45E4DB1A0B39}|CustomerSupportCase\\CustomerSupportCase.csproj|d:\\dnbaccount\\customersupportcase\\customersupportcase\\dtos\\casedetailsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5732954C-82D0-1F2E-4D66-45E4DB1A0B39}|CustomerSupportCase\\CustomerSupportCase.csproj|solutionrelative:customersupportcase\\dtos\\casedetailsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5732954C-82D0-1F2E-4D66-45E4DB1A0B39}|CustomerSupportCase\\CustomerSupportCase.csproj|d:\\dnbaccount\\customersupportcase\\customersupportcase\\services\\icaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5732954C-82D0-1F2E-4D66-45E4DB1A0B39}|CustomerSupportCase\\CustomerSupportCase.csproj|solutionrelative:customersupportcase\\services\\icaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5732954C-82D0-1F2E-4D66-45E4DB1A0B39}|CustomerSupportCase\\CustomerSupportCase.csproj|d:\\dnbaccount\\customersupportcase\\customersupportcase\\dtos\\createcaserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5732954C-82D0-1F2E-4D66-45E4DB1A0B39}|CustomerSupportCase\\CustomerSupportCase.csproj|solutionrelative:customersupportcase\\dtos\\createcaserequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5732954C-82D0-1F2E-4D66-45E4DB1A0B39}|CustomerSupportCase\\CustomerSupportCase.csproj|d:\\dnbaccount\\customersupportcase\\customersupportcase\\repositories\\icaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5732954C-82D0-1F2E-4D66-45E4DB1A0B39}|CustomerSupportCase\\CustomerSupportCase.csproj|solutionrelative:customersupportcase\\repositories\\icaserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5732954C-82D0-1F2E-4D66-45E4DB1A0B39}|CustomerSupportCase\\CustomerSupportCase.csproj|d:\\dnbaccount\\customersupportcase\\customersupportcase\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5732954C-82D0-1F2E-4D66-45E4DB1A0B39}|CustomerSupportCase\\CustomerSupportCase.csproj|solutionrelative:customersupportcase\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateCaseRequest.cs",
+              "DocumentMoniker": "D:\\DNBAccount\\CustomerSupportCase\\CustomerSupportCase\\DTOs\\CreateCaseRequest.cs",
+              "RelativeDocumentMoniker": "CustomerSupportCase\\DTOs\\CreateCaseRequest.cs",
+              "ToolTip": "D:\\DNBAccount\\CustomerSupportCase\\CustomerSupportCase\\DTOs\\CreateCaseRequest.cs",
+              "RelativeToolTip": "CustomerSupportCase\\DTOs\\CreateCaseRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-25T10:20:01.683Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CaseService.cs",
+              "DocumentMoniker": "D:\\DNBAccount\\CustomerSupportCase\\CustomerSupportCase\\Services\\CaseService.cs",
+              "RelativeDocumentMoniker": "CustomerSupportCase\\Services\\CaseService.cs",
+              "ToolTip": "D:\\DNBAccount\\CustomerSupportCase\\CustomerSupportCase\\Services\\CaseService.cs",
+              "RelativeToolTip": "CustomerSupportCase\\Services\\CaseService.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAQwFwAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T19:30:00.263Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SupportCaseController.cs",
+              "DocumentMoniker": "D:\\DNBAccount\\CustomerSupportCase\\CustomerSupportCase\\Controllers\\SupportCaseController.cs",
+              "RelativeDocumentMoniker": "CustomerSupportCase\\Controllers\\SupportCaseController.cs",
+              "ToolTip": "D:\\DNBAccount\\CustomerSupportCase\\CustomerSupportCase\\Controllers\\SupportCaseController.cs",
+              "RelativeToolTip": "CustomerSupportCase\\Controllers\\SupportCaseController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswCgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T20:03:39.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CaseDetailsResponse.cs",
+              "DocumentMoniker": "D:\\DNBAccount\\CustomerSupportCase\\CustomerSupportCase\\DTOs\\CaseDetailsResponse.cs",
+              "RelativeDocumentMoniker": "CustomerSupportCase\\DTOs\\CaseDetailsResponse.cs",
+              "ToolTip": "D:\\DNBAccount\\CustomerSupportCase\\CustomerSupportCase\\DTOs\\CaseDetailsResponse.cs",
+              "RelativeToolTip": "CustomerSupportCase\\DTOs\\CaseDetailsResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T19:31:23.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SupportCase.cs",
+              "DocumentMoniker": "D:\\DNBAccount\\CustomerSupportCase\\CustomerSupportCase\\Entities\\SupportCase.cs",
+              "RelativeDocumentMoniker": "CustomerSupportCase\\Entities\\SupportCase.cs",
+              "ToolTip": "D:\\DNBAccount\\CustomerSupportCase\\CustomerSupportCase\\Entities\\SupportCase.cs",
+              "RelativeToolTip": "CustomerSupportCase\\Entities\\SupportCase.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAiwCQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T18:06:05.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICaseService.cs",
+              "DocumentMoniker": "D:\\DNBAccount\\CustomerSupportCase\\CustomerSupportCase\\Services\\ICaseService.cs",
+              "RelativeDocumentMoniker": "CustomerSupportCase\\Services\\ICaseService.cs",
+              "ToolTip": "D:\\DNBAccount\\CustomerSupportCase\\CustomerSupportCase\\Services\\ICaseService.cs",
+              "RelativeToolTip": "CustomerSupportCase\\Services\\ICaseService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T19:29:44.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICaseRepository.cs",
+              "DocumentMoniker": "D:\\DNBAccount\\CustomerSupportCase\\CustomerSupportCase\\Repositories\\ICaseRepository.cs",
+              "RelativeDocumentMoniker": "CustomerSupportCase\\Repositories\\ICaseRepository.cs",
+              "ToolTip": "D:\\DNBAccount\\CustomerSupportCase\\CustomerSupportCase\\Repositories\\ICaseRepository.cs",
+              "RelativeToolTip": "CustomerSupportCase\\Repositories\\ICaseRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T18:38:59.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\DNBAccount\\CustomerSupportCase\\CustomerSupportCase\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CustomerSupportCase\\Data\\AppDbContext.cs",
+              "ToolTip": "D:\\DNBAccount\\CustomerSupportCase\\CustomerSupportCase\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "CustomerSupportCase\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-24T18:13:44.947Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
